@@ -26,3 +26,10 @@ CREATE TABLE location (
     building varchar
     room integer
 );
+
+CREATE TABLE institution(
+    inst_id integer PRIMARY KEY,
+    inst_name varchar,
+    state varchar,
+    size integer
+);

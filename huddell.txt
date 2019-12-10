@@ -1,0 +1,16 @@
+1. Version control saves various versions and histories of work with each changed logged and explained. It is important so that project managers and programmers can understand when and why changes were made and revert to old versions if necessary while work is being done. It also allows multiple workers to contribute without destroying the work of others. 
+
+2. git is the language that controls the local repository and GitHub is the remote repository with a GUI. 
+
+3. When a file is changed in a local repository it will be added to a staging area with the command "git add <file>". Then, when all necessary modifications to files in a project are added, a "snapshot" of the staging area is saved with a message describing what changes were made, with the command "git commit -m '<message>'". Finally, the snapshot is pushed to GitHub from the local repository with the command "git push -u origin master" (if the master branch is the one being worked on, and origin is the remote repository). 
+
+4. Branches are useful when different contributors want to make modifications to the code that do different things. They branch off of the master branch and can edit and change anything they want to achieve their goal, without affecting the master while they do it. Then, when they are finished, their branch can be merged with the master. This prevents confusion between programmers who are changing different things at the same time. 
+
+5. A forked repository can be contributed to with pull requests. Cloning means that the original repository cannot be contributed to.
+
+6. "git remote -v" shows the list of active remotes, and it is helpful when a repository has been forked, to distinguish between the one that the user can push directly to (typically called origin, their own version of the repo) and the one that needs to be accessed with pull requests (typically called upstream, the original repo). 
+
+7. 2 of the tables do not have variable types assigned to them, each column added is not separated by a comma, there are no foreign keys to relate the tables, 2 of the tables do not have a primary key
+
+8. There is no way to relate the student table to the location table, even with joins or subqueries. "building" and "room" do not have relations to any other table, so there is not way to get to the student table.
+
